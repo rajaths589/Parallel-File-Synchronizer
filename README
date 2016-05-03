@@ -1,0 +1,12 @@
+Compilation :
+
+make all
+make all-debug (for debugging using gdb)
+make all-profile (for profiling using VampirTrace)
+
+Usage :
+
+    OpenMP version -
+        ./comparefs_omp path-to-filesystem path-to-filesystem [path-to-filesystem] ...
+    Pthreads version -
+        ./comparefs_pth path-to-filesystem path-to-filesystem [path-to-filesystem] ...

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:gadfly="http://www.gadflyjl.org/ns"
+     version="1.2"
+     width="101.6mm" height="76.2mm" viewBox="0 0 101.6 76.2"
+     stroke="none"
+     fill="#000000"
+     stroke-width="0.3"
+     font-size="3.88"
+>
+<g class="plotroot xscalable yscalable" id="img-b6535dba-1">
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-b6535dba-2">
+    <text x="57.33" y="65.38" text-anchor="middle" dy="0.6em">Size in B</text>
+  </g>
+  <g class="guide xlabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-b6535dba-3">
+    <text x="20.06" y="59.26" text-anchor="middle" dy="0.6em">0</text>
+    <text x="44.9" y="59.26" text-anchor="middle" dy="0.6em">5.0×10⁷</text>
+    <text x="69.75" y="59.26" text-anchor="middle" dy="0.6em">1.0×10⁸</text>
+    <text x="94.6" y="59.26" text-anchor="middle" dy="0.6em">1.5×10⁸</text>
+  </g>
+<g clip-path="url(#img-b6535dba-4)">
+  <g id="img-b6535dba-5">
+    <g pointer-events="visible" opacity="1" fill="#000000" fill-opacity="0.000" stroke="#000000" stroke-opacity="0.000" class="guide background" id="img-b6535dba-6">
+      <rect x="18.06" y="12.88" width="78.54" height="45.38"/>
+    </g>
+    <g class="guide ygridlines xfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-b6535dba-7">
+      <path fill="none" d="M18.06,56.26 L 96.6 56.26"/>
+      <path fill="none" d="M18.06,42.47 L 96.6 42.47"/>
+      <path fill="none" d="M18.06,28.67 L 96.6 28.67"/>
+      <path fill="none" d="M18.06,14.88 L 96.6 14.88"/>
+    </g>
+    <g class="guide xgridlines yfixed" stroke-dasharray="0.5,0.5" stroke-width="0.2" stroke="#D0D0E0" id="img-b6535dba-8">
+      <path fill="none" d="M20.06,12.88 L 20.06 58.26"/>
+      <path fill="none" d="M44.9,12.88 L 44.9 58.26"/>
+      <path fill="none" d="M69.75,12.88 L 69.75 58.26"/>
+      <path fill="none" d="M94.6,12.88 L 94.6 58.26"/>
+    </g>
+    <g class="plotpanel" id="img-b6535dba-9">
+      <g stroke-width="0.3" fill="#000000" fill-opacity="0.000" class="geometry" stroke-dasharray="none" stroke="#0000FF" id="img-b6535dba-10">
+        <path fill="none" d="M20.47,55.95 L 30.59 54.19 45.63 50.27 71.38 41.31"/>
+      </g>
+      <g class="geometry" id="img-b6535dba-11">
+        <g class="color_RGBA{Float32}(0.0f0,0.0f0,1.0f0,1.0f0)" stroke="#FFFFFF" stroke-width="0.3" fill="#0000FF" id="img-b6535dba-12">
+          <use xlink:href="#img-b6535dba-13" x="30.59" y="54.19"/>
+          <use xlink:href="#img-b6535dba-13" x="71.38" y="41.31"/>
+          <use xlink:href="#img-b6535dba-13" x="45.63" y="50.27"/>
+          <use xlink:href="#img-b6535dba-13" x="20.47" y="55.95"/>
+        </g>
+      </g>
+      <g stroke-width="0.3" fill="#000000" fill-opacity="0.000" class="geometry" stroke-dasharray="none" stroke="#FFA500" id="img-b6535dba-14">
+        <path fill="none" d="M20.47,55.96 L 30.59 52.59 45.63 45.7 71.38 23.16"/>
+      </g>
+      <g class="geometry" id="img-b6535dba-15">
+        <g class="color_RGBA{Float32}(1.0f0,0.64705884f0,0.0f0,1.0f0)" stroke="#FFFFFF" stroke-width="0.3" fill="#FFA500" id="img-b6535dba-16">
+          <use xlink:href="#img-b6535dba-17" x="30.59" y="52.59"/>
+          <use xlink:href="#img-b6535dba-17" x="71.38" y="23.16"/>
+          <use xlink:href="#img-b6535dba-17" x="45.63" y="45.7"/>
+          <use xlink:href="#img-b6535dba-17" x="20.47" y="55.96"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
+  <g class="guide ylabels" font-size="2.82" font-family="'PT Sans Caption','Helvetica Neue','Helvetica',sans-serif" fill="#6C606B" id="img-b6535dba-18">
+    <text x="17.06" y="56.26" text-anchor="end" dy="0.35em">0.0</text>
+    <text x="17.06" y="42.47" text-anchor="end" dy="0.35em">0.5</text>
+    <text x="17.06" y="28.67" text-anchor="end" dy="0.35em">1.0</text>
+    <text x="17.06" y="14.88" text-anchor="end" dy="0.35em">1.5</text>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-b6535dba-19">
+    <text x="8.41" y="33.57" text-anchor="middle" dy="0.35em" transform="rotate(-90, 8.41, 35.57)">Time in s</text>
+  </g>
+  <g font-size="3.88" font-family="'PT Sans','Helvetica Neue','Helvetica',sans-serif" fill="#564A55" stroke="#000000" stroke-opacity="0.000" id="img-b6535dba-20">
+    <text x="57.33" y="10.88" text-anchor="middle">K=4;orange:pthread;blue:openMP</text>
+  </g>
+</g>
+<defs>
+  <clipPath id="img-b6535dba-4">
+  <path d="M18.06,12.88 L 96.6 12.88 96.6 58.26 18.06 58.26" />
+</clipPath>
+  <g id="img-b6535dba-13">
+    <circle cx="0" cy="0" r="0.9"/>
+  </g>
+  <g id="img-b6535dba-17">
+    <circle cx="0" cy="0" r="0.9"/>
+  </g>
+</defs>
+</svg>

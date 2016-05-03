@@ -1,0 +1,166 @@
+Platform Specifications :
+Intel(R) Core(TM) i7-3612QM CPU @ 2.10GHz ( 8 cores )
+cache size : 6144 KB (per core)
+OS : Arch Linux (linux kernel version - 4.1.15-1)
+
+RAM : 3859 MB
+-----------------------------------------------------
+
+TestCase [1] :
+                        Version1        Version2
+Size                      1.8 MB         226 KB
+Number of Subfolders       252            20
+Number of Files            628            36
+Depth                        7             6
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                11.114 ms   11.011 ms
+Memory                              153680 B    155520 B
+-------------------------------------------------------------
+
+TestCase [2] :
+                        Version1        Version2
+Size                   92395531 B      118830622 B
+Number of Subfolders       580            769
+Number of Files          14477          18019
+Depth                        8             10
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                0.587 s     0.246 s
+Memory                              421936 B    423520 B
+-------------------------------------------------------------
+
+TestCase [3] :
+                        Version1        Version2
+Size                   51458023 B      51458023 B
+Number of Subfolders       109            109
+Number of Files            1189          1189
+Depth                        8             8
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                0.339 s     0.189 s
+Memory                              175088 B    192272 B
+-------------------------------------------------------------
+
+TestCase [4] :
+                        Version1        Version2
+Size                   822791911 B      821841838 B
+Number of Subfolders       1               1
+Number of Files            6               6
+Depth                      2               2
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                3.529 s     2.183 s
+Memory                              148752 B    - (measurement takes too much time on valgrind massif)
+-------------------------------------------------------------
+
+TestCase [5] :
+                    Version1    Version2    Version3    Version4
+Size               20601903 B  20601348 B  20600027 B  22972930 B
+Number of Subfolde   146           146        146        146
+Number of Files      1041         1041       1041       1041
+Depth                 6             6          6          6
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                0.133 s     75.187 ms
+Memory                               231944 B   250664B
+-------------------------------------------------------------
+
+TestCase [6] :
+                        Version1        Version2        Version3        Version 4
+Size                   92395531 B      118830622 B      100939825 B     100909936 B
+Number of Subfolders       580            769              645              645
+Number of Files          14477          18019             15818            15815
+Depth                        8             10              10                10
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                1.200 s     0.542 s
+Memory                             695000B       733064 B
+-------------------------------------------------------------
+
+TestCase [7] :
+                        Version1        Version2       Version3         Version4
+Size                   51458023 B      51458023 B       51458023 B        51458023 B
+Number of Subfolders       109            109               109             109
+Number of Files            1189          1189               1189            1189
+Depth                        8             8                8               8
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                0.383 s     0.217 s
+Memory                              258872 B    250520 B
+-------------------------------------------------------------
+
+TestCase [8] :
+                        Version1        Version2        Version3        Version4
+Size                      829931 B      829931 B        829931 B        829931 B
+Number of Subfolders       1              1               1             1
+Number of Files            12            12               12            12
+Depth                      2              2                2             2
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                10.838 ms   11.398 ms
+Memory                              195992 B    232320 B
+-------------------------------------------------------------
+
+TestCase [9] :
+                    Version1    Version2    Version3    Version4    Version5    Version6    Version7    Version8    Version9  Version10
+Size              20601903 B  20601348 B  20600027 B  22972930 B  22972643 B  20358493 B  20347750 B  20321759 B  20320427 B  6723893B
+Number of Subfolde   146           146        146        146           146         145        144         143         143        26
+Number of Files      1041         1041       1041       1041          1041        1041        1012       1001         1001       358
+Depth                 6             6          6          6             6           6          6           6            6         6
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                0.230 s     0.311 s
+Memory                              312992 B    444880 B
+-------------------------------------------------------------
+
+TestCase [10] :
+                Version1    Version2    Version3    Version4    Version5    Version6    Version7    Version8    Version9   Version10
+Size             829931 B     829931 B     829931 B   829931 B    829931 B    829931 B    829931 B    829931 B    829931 B  829931 B
+Number of Subfolde   1          1           1           1           1           1           1           1           1           1
+Number of Files      12         12          12          12          12          12          12          12          12          12
+Depth                2          2           2           2           2           2           2           2           2           2
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                20.715 ms   18.764 ms
+Memory                              299528 B     334816 B
+-------------------------------------------------------------
+
+TestCase [11] :
+                    Version1    Version2    Version3    Version4    Version5    Version6    Version7
+Size               20601903 B  20601348 B  20600027 B  22972930 B  22972643 B  20358493 B  20347750 B
+Number of Subfolde   146           146        146        146           146         145        144
+Number of Files      1041         1041       1041       1041          1041        1041        1012
+Depth                 6             6          6          6             6           6          6
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                0.195 s     0.139 s
+Memory                              285816 B    275960 B
+-------------------------------------------------------------
+
+TestCase [12] :
+                Version1    Version2    Version3    Version4    Version5    Version6    Version7
+Size             829931 B     829931 B     829931 B   829931 B    829931 B    829931 B    829931 B
+Number of Subfolde   1          1           1           1           1           1           1
+Number of Files      12         12          12          12          12          12          12
+Depth                2          2           2           2           2           2           2
+-------------------------------------------------------------
+                                    PThreads    OpenMP
+
+Time                                10.886 ms   11.376 ms
+Memory                              273840 B      241896 B
+-------------------------------------------------------------
+
+Note :
+All memory measurements are peak (heap + stack) memory used by the application.
